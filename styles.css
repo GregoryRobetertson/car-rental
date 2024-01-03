@@ -13,23 +13,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 #logo {
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-left: 15px;
 }
 
-nav ul li {
+ul li {
   display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
+  padding: 10px 20px;
 }
 
-nav ul li a {
-  color: var(--text-color);
+ul li a {
+  font-size: 17px;
   text-decoration: none;
+  color: var(--text-color);
 }
+
+
