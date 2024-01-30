@@ -61,17 +61,64 @@ h1 {
   font-weight: bolder;
 }
 
+/* Custom Styles for About Section */
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  padding: 80px 0;
 }
 
-.about h2,
-.about p {
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
-  margin-bottom: 20px;
+.section-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #f39c12; /* Choose your desired color */
 }
+
+.text-muted {
+  color: #777;
+}
+
+.large {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Additional Styling for Home Text */
+.home-text {
+  text-align: center;
+  padding: 150px 0;
+  color: #fff;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+}
+
+.home-text p {
+  font-size: 1.5rem;
+}
+
+/* Custom Styles for Cars Section */
+/* Custom Styles for Cars Section */
+.cars {
+  padding: 20px 0; /* Adjust the top padding as needed */
+}
+
+.car-card {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.car-card img {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.car-card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.text-muted {
+  color: #777;
+}
+
